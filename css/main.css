@@ -45,13 +45,28 @@ video {
 }
 
 .dates {
+  text-transform: uppercase;
   color: white;
   font-size: 20px;
+  font-weight: 300;
+  font-family: "Noto Serif", serif;
+  padding: 10px 20px 20px 20px;
 }
 
 nav {
   background-color: black;
   color: white;
+  font-family: "Noto Serif", serif;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 41px 20px 42px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .big-h2 h2 {
@@ -68,6 +83,10 @@ nav {
   text-align: center;
 }
 
+.programme img {
+  border-bottom: 2px solid #d7a1fd;
+}
+
 .desire {
   border: 1px solid black;
 }
@@ -80,7 +99,7 @@ nav {
   margin: 20px 0;
 }
 
-.border {
+.transatlantica {
   border: 1px solid black;
   margin: 0 51px;
   padding-top: 10px;
@@ -168,6 +187,7 @@ nav {
 footer {
   background-color: black;
   color: white;
+  padding-bottom: 112px;
 }
 
 .h2-footer {
@@ -179,4 +199,21 @@ footer {
   font-size: 50px;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+footer h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Noto Serif", serif;
+}
+
+.contacts a {
+  text-decoration: none;
+  font-size: 13px;
 }
