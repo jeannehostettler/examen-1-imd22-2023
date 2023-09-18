@@ -148,11 +148,21 @@ nav {
 .opportunities {
   background-color: #98fb00;
   border: solid 1px black;
-  display: flex;
+  align-items: center;
   padding: 20px 10px;
   text-transform: uppercase;
   font-family: "Nunito Sans", sans-serif;
   font-style: italic;
+  font-size: 20px;
+  letter-spacing: -1px;
+  font-weight: 800;
+}
+
+.text-opportunities {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 footer {
