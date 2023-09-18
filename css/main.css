@@ -54,10 +54,12 @@ nav {
   color: white;
 }
 
-h2 {
+.big-h2 h2 {
   font-size: 50px;
   font-family: "Noto Serif", serif;
   font-weight: 300;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .programme {
@@ -131,11 +133,26 @@ h2 {
 
 .pink-h2 {
   background-color: #d7a1fd;
+  padding: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: -2.5px;
+}
+
+.pink-h2 h2 {
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 .opportunities {
   background-color: #98fb00;
   border: solid 1px black;
+  display: flex;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
 }
 
 footer {
@@ -145,4 +162,11 @@ footer {
 
 .h2-footer {
   color: #313131;
+}
+
+.h2-footer h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
 }
