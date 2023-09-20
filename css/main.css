@@ -68,6 +68,8 @@ h1 {
   font-weight: 300;
   font-family: "Noto Serif", serif;
   padding: 10px 20px 20px 20px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 nav {
@@ -234,7 +236,7 @@ nav a {
   text-transform: uppercase;
 }
 
-.opportunities {
+.opportunitie-1 {
   background-color: #98fb00;
   border: solid 1px black;
   align-items: center;
@@ -247,11 +249,41 @@ nav a {
   font-weight: 800;
 }
 
-.text-opportunities {
-  display: flex;
+.opportunitie-2 {
+  background-color: #98fb00;
+  border: solid 1px black;
+  align-items: center;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: -1px;
+  font-weight: 800;
+}
+
+.opportunitie-3 {
+  background-color: #98fb00;
+  border: solid 1px black;
+  align-items: center;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: -1px;
+  font-weight: 800;
+}
+
+.text-opportunities .container {
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 60px;
+  display: flex;
+}
+
+.text-opportunities .container {
+  width: 50%;
 }
 
 footer {
