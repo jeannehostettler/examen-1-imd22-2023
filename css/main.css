@@ -43,6 +43,24 @@ video {
   background-color: #d7a1fd;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.title {
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+h1 {
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+
 .dates {
   text-transform: uppercase;
   color: white;
@@ -74,6 +92,7 @@ nav a {
   font-weight: 300;
   padding-top: 60px;
   padding-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .programme {
@@ -84,6 +103,14 @@ nav a {
 
 .programme img {
   border-bottom: 7px solid #d7a1fd;
+}
+
+.top-text {
+  margin-top: 20px;
+}
+
+.bottom-text {
+  margin-bottom: 30px;
 }
 
 .desire {
@@ -100,7 +127,8 @@ nav a {
 
 .transatlantica {
   border: 1px solid black;
-  margin: 0 50px;
+  margin-left: 10px;
+  margin-right: 50px;
 }
 
 .transatlantica h3 {
