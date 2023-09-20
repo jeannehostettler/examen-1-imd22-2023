@@ -35,7 +35,6 @@ a {
 
 img,
 video {
-  max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
 }
@@ -84,7 +83,7 @@ nav a {
 }
 
 .programme img {
-  border-bottom: 2px solid #d7a1fd;
+  border-bottom: 7px solid #d7a1fd;
 }
 
 .desire {
@@ -101,14 +100,14 @@ nav a {
 
 .transatlantica {
   border: 1px solid black;
-  margin: 0 51px;
-  padding-top: 10px;
+  margin: 0 50px;
 }
 
 .transatlantica h3 {
   font-family: "Nunito Sans", sans-serif;
   text-transform: uppercase;
   font-size: 18px;
+  margin: 20px 0;
 }
 
 .button {
@@ -148,6 +147,49 @@ nav a {
 
 .new {
   display: flex;
+}
+
+.new img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  size: 100%;
+}
+
+.new h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.new p {
+  font-family: "Noto Serif", serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.month {
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 60px;
+}
+
+.month-text {
+  padding: 20px;
+  text-align: left;
+}
+
+.walls {
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 0;
+  margin-bottom: 126px;
+}
+
+.walls-text {
+  margin: 20px;
 }
 
 .pink-h2 {
